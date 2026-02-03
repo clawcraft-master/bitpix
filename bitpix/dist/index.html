@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BitPix</title>
+  <script type="module" crossorigin src="/assets/index-CY3qZmKT.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-l_OQKDt1.css">
+</head>
+<body>
+  <div id="app">
+    <header id="header">
+      <h1>BitPix</h1>
+      <div id="controls">
+        <!-- Playback -->
+        <button id="btn-play" title="Play/Pause (Space)">▶ Play</button>
+        <button id="btn-fullscreen" title="Fullscreen (F)">⛶</button>
+        
+        <span class="separator"></span>
+        
+        <!-- Save/Load -->
+        <select id="preset-select" title="Load preset">
+          <option value="" disabled selected>📂 Select preset...</option>
+        </select>
+        <button id="btn-save" title="Save preset (Ctrl+S)">💾 Save</button>
+        <button id="btn-delete" title="Delete preset">🗑️</button>
+        
+        <span class="separator"></span>
+        
+        <!-- File/Share -->
+        <button id="btn-new" title="New graph">📄 New</button>
+        <button id="btn-load" title="Load from file (Ctrl+O)">📁</button>
+        <button id="btn-share" title="Copy share URL">🔗 Share</button>
+        
+        <span class="separator"></span>
+        
+        <span id="fps">0 FPS</span>
+      </div>
+    </header>
+    <main id="workspace">
+      <div id="graph-container">
+        <canvas id="graph-canvas"></canvas>
+      </div>
+      <div id="preview-container">
+        <canvas id="preview-canvas"></canvas>
+      </div>
+    </main>
+  </div>
+</body>
+</html>

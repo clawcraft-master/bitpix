@@ -1,0 +1,22 @@
+{
+  "name": "bitpix",
+  "version": "0.1.0",
+  "description": "Node-based generative pixel art tool for live performance",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "litegraph.js": "^0.7.18"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "vite": "^7.3.1"
+  },
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
